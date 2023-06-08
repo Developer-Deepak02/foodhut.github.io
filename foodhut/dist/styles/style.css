@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'poppins','sarif';
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FED049;
+}
+
+.container .left {
+    border: 2px solid black;
+    overflow: hidden;
+    width: 50vw;
+}
+
+.container .left img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.container .right .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: 'Sacramento', cursive;
+    cursor: pointer;
+}
+
+#m-l{
+    font-size: 6rem;
+    width: 6rem;
+}
+
+.main-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1.5;
+    margin-top: 3rem;
+}
+
+.main-con .row1 span{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-family: poppins , sans-serif;
+    font-weight: 500;
+}
+
+.main-con .row2 span{
+    font-size: 6rem;
+    font-family: 'Crimson Text', serif;
+}
+
+.main-con .row3 span{
+    font-size: 1.5rem;
+    font-family: poppins , sans-serif;
+
+}
+
+.input-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem 0;
+    row-gap: 2rem;
+}
+
+.input-sec input{
+    width: 35rem;
+    height: 4rem;
+    border-radius: .5rem;
+    outline: none;
+    border: 1px solid black;
+    padding: 0 1rem;
+    font-weight: 600;
+}
+
+.input-sec button{
+    background-color: black;
+    color: #fff;
+    width: 35rem;
+    height: 4rem;
+    outline: none;
+    border: 1px solid black;
+    border-radius: .5rem;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    font-family: poppins , sans-serif;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.input-sec button:hover{
+    background-color: #1b1b1b;
+}
+
+.link-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-div a{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+
